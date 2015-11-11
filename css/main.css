@@ -1,0 +1,65 @@
+.header {
+  width: 100%;
+  height: 180px; }
+  .header .main-nav {
+    padding-top: 50px; }
+    .header .main-nav ul {
+      width: 30em;
+      background: black;
+      border-radius: 10px;
+      margin: 0 auto; }
+      .header .main-nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+        background-color: black;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .header .main-nav ul li a {
+          text-decoration: none;
+          color: white; }
+        .header .main-nav ul li:hover {
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+          background-color: #333333; }
+
+.wrapper {
+  height: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 10px; }
+  .wrapper .pagination ul {
+    margin: 0;
+    background: linear-gradient(#fac543, white);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px; }
+    .wrapper .pagination ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding-left: 7px;
+      padding-right: 7px; }
+      .wrapper .pagination ul li a {
+        text-decoration: none;
+        color: black; }
+
+.music {
+  padding-left: 10px; }
+  .music h3 {
+    color: red;
+    margin: 0; }
+  .music iframe {
+    padding-right: 10px;
+    float: left;
+    width: 20%; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: white; }
+  html .background-image, body .background-image {
+    background-image: url(../images/tour_de_france.jpg);
+    background-repeat: no-repeat; }
